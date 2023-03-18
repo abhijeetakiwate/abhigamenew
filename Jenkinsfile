@@ -1,7 +1,7 @@
 pipeline {
   agent{
     label{
-      label "qa"
+      label "built-in"
  customWorkspace "/mnt/pipeline" 
     }
   }
